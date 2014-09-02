@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title>Prueba Plugin Jquery</title>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="jquery.rut.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#rut").rut();
+		});
+	</script>
+</head>
+<body>
+	<form>
+		<input type="text" name="Nombre" placeholder="Nombre" />
+		<input type="text" name="Apellido" placeholder="Apellido"/>
+		<button>Enviar</button>
+	</form>
+	<input type="text" placeholder="Rut" id="rut"/>
+</body>
+</html>
